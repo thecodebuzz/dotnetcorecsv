@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csv-dotnet-core", "csv-dotnet-core\csv-dotnet-core.csproj", "{F673B514-CF07-4220-9F74-3F58DB82B21B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csv-dotnet-core-helper", "csv-dotnet-core -helper\csv-dotnet-core-helper.csproj", "{67C0E011-07BA-409E-B44D-99CC8C9BC315}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F673B514-CF07-4220-9F74-3F58DB82B21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F673B514-CF07-4220-9F74-3F58DB82B21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F673B514-CF07-4220-9F74-3F58DB82B21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F673B514-CF07-4220-9F74-3F58DB82B21B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C0E011-07BA-409E-B44D-99CC8C9BC315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C0E011-07BA-409E-B44D-99CC8C9BC315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C0E011-07BA-409E-B44D-99CC8C9BC315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C0E011-07BA-409E-B44D-99CC8C9BC315}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A9D0222-0BC7-41F8-B61E-2A4285757242}
+	EndGlobalSection
+EndGlobal

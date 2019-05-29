@@ -2,17 +2,19 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
-    <RootNamespace>ExcelInDotNet2._0</RootNamespace>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>csv_dotnet_core</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="12.1.2" />
     <PackageReference Include="DocumentFormat.OpenXml" Version="2.9.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="TinyCsvParser" Version="2.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="TestData.xlsx">
+    <None Update="TestData.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
