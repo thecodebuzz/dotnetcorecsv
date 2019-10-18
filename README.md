@@ -1,2 +1,2 @@
 
-# Read csv in NET Core https://thecodebuzz.com/read-csv-file-in-net-core/
+# Read CSV in NET Core https://thecodebuzz.com/read-csv-file-in-net-core/
